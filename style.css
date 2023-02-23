@@ -217,17 +217,17 @@ textarea::-webkit-scrollbar-thumb{
     margin-left: 16px;
 }
 
-.urgente{
+.vermelho {
     background-color: #FF5858;
 }
-.intermediario{
+.amarelo {
     background-color: #F8D351;
 }
-.basico{
-    background-color: #3879C1;
-}
-.concluido{
+.verde {
     background-color: #2BB673;
+}
+.concluido {
+    background-color: #3879C1;
     
     padding: 4px;
 }
