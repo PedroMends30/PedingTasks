@@ -2,7 +2,7 @@
 include_once('connection.php');
 $conn = connect();
 $id_login = 1;
-$sql = 'SELECT `pending_task`.`task`,`pending_task`.`subject`,`pending_task`.`description`,`pending_task`.`priority` FROM `pending_task` INNER JOIN `login` ON `login`.`id_login` = :id AND `pending_task`.`id_login` = :id ORDER BY `pending_task`.`priority` DESC';
+$sql = 'SELECT `pending_task`.`task`,`pending_task`.`subject`,`pending_task`.`description`,`pending_task`.`priority` FROM `pending_task` INNER JOIN `login` ON `login`.`id_login` = :id AND `pending_task`.`id_login` = :id AND `pending_task`.`priority` != "azul" ORDER BY `pending_task`.`priority` DESC;';
 global $stmt;
 $stmt = $conn->prepare($sql);
 $stmt->bindParam(':id', $id_login);

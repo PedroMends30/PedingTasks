@@ -32,161 +32,12 @@
                     <div class="progress-bar top-bar"></div>
                 </div>
 
-                <span class="subtitle" style="float: right;">72% Concluido</span>
+                <span class="subtitle" style="float: right;">72% azul</span>
             </div>
             <?php include("php/urgent_tasks.php")?>
-            <!--Tasks Urgentes
-            <div class="urgente-task task-div">
-                <span class="title-section">Urgente: ##</span>
-
-                <div class="task" id="task-id">
-
-                    <div class="task-name"> 
-                        <span class="task-title">Isso é uma atividade</span>
-                        <span class="subtitle task-materia"> Desenvolvimento de Sistemas</span>
-                    </div>
-                
-                    <div style="display: flex; align-items: center;">
-                        <span class="subtitle task-date">AMANHÃ <span class="bold" style="margin-left: 3px;">08:40</span></span>
-                        <span class="priority urgente"></span>
-                        
-                    </div>
-                </div>
-            </div>-->
             <?php include('php/task.php')?>
-            <!--Tasks Pendentes (Dropdonw)
-            <div class="pendente-task task-div">
-                <div class="drop-title" id="droptitle-1">
-                    <span class="title-section drop">Tarefas Pendentes: </span>
-                    <span id="dropimg-1" class="subtitle bold">Ver Tarefas <img id="rotateimg-1" src="src/Drop.svg" alt="Ver Tarefas"></span>
-                </div>
-
-                <div class="drop-task " id="droptask-1">
-                    <div class="task" id="task-id">
-
-                        <div class="task-name"> 
-                            <span class="task-title">Isso é uma atividade</span>
-                            <span class="subtitle task-materia"> Desenvolvimento de Sistemas</span>
-                        </div>
-                    
-                        <div style="display: flex; align-items: center;">
-                            <span class="subtitle task-date">FEV 19 <span class="bold" style="margin-left: 3px;">08:40</span></span>
-                            <span class="priority amarelo"></span>
-                            
-                        </div>
-                    </div>
-
-                    <div class="task" id="task-id">
-
-                        <div class="task-name"> 
-                            <span class="task-title">Isso é uma atividade</span>
-                            <span class="subtitle task-materia"> Desenvolvimento de Sistemas</span>
-                        </div>
-                    
-                        <div style="display: flex; align-items: center;">
-                            <span class="subtitle task-date">FEV 19 <span class="bold" style="margin-left: 3px;">08:40</span></span>
-                            <span class="priority amarelo"></span>
-                            
-                        </div>
-                    </div>
-
-                    <div class="task" id="task-id">
-
-                        <div class="task-name"> 
-                            <span class="task-title">Isso é uma atividade</span>
-                            <span class="subtitle task-materia"> Desenvolvimento de Sistemas</span>
-                        </div>
-                    
-                        <div style="display: flex; align-items: center;">
-                            <span class="subtitle task-date">FEV 19 <span class="bold" style="margin-left: 3px;">08:40</span></span>
-                            <span class="priority verde"></span>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>-->
-
-                
-            <!--Tasks Concluidas (Dropdonw)-->
-            <div class="concluded-task task-div">
-                <div class="drop-title" id="droptitle-2">
-                    <span class="title-section drop">Tarefas Concluídas: ##</span>
-                    <span id="dropimg-2" class="subtitle bold">Ver Tarefas <img id="rotateimg-2" src="src/Drop.svg" alt="Ver Tarefas"></span>
-                </div>
-
-                <div class="drop-task" id="droptask-2">    
-                    <div class="task" id="task-id">
-
-                        <div class="task-name"> 
-                            <span class="task-title disable">Isso é uma atividade concluida</span>
-                            <span class="subtitle task-materia disable"> Desenvolvimento de Sistemas</span>
-                        </div>
-                    
-                        <div style="display: flex; align-items: center;">
-                            <span class="subtitle task-date disable">FEV 19 <span class="bold disable" style="margin-left: 3px;">08:40</span></span>
-                            <img class="priority concluido" src="src/Check.svg"></img>
-                            
-                        </div>
-                    </div>
-
-                    <div class="task" id="task-id">
-
-                        <div class="task-name"> 
-                            <span class="task-title disable">Isso é uma atividade concluida</span>
-                            <span class="subtitle task-materia disable"> Desenvolvimento de Sistemas</span>
-                        </div>
-                    
-                        <div style="display: flex; align-items: center;">
-                            <span class="subtitle task-date disable">FEV 19 <span class="bold disable" style="margin-left: 3px;">08:40</span></span>
-                            <img class="priority concluido" src="src/Check.svg"></img>
-                            
-                        </div>
-                    </div>
-
-                    <div class="task" id="task-id">
-
-                        <div class="task-name"> 
-                            <span class="task-title disable">Isso é uma atividade concluida</span>
-                            <span class="subtitle task-materia disable"> Desenvolvimento de Sistemas</span>
-                        </div>
-                    
-                        <div style="display: flex; align-items: center;">
-                            <span class="subtitle task-date disable">FEV 19 <span class="bold disable" style="margin-left: 3px;">08:40</span></span>
-                            <img class="priority concluido" src="src/Check.svg"></img>
-                            
-                        </div>
-                    </div>
-
-                    <div class="task" id="task-id">
-
-                        <div class="task-name"> 
-                            <span class="task-title disable">Isso é uma atividade concluida</span>
-                            <span class="subtitle task-materia disable"> Desenvolvimento de Sistemas</span>
-                        </div>
-                    
-                        <div style="display: flex; align-items: center;">
-                            <span class="subtitle task-date disable">FEV 19 <span class="bold disable" style="margin-left: 3px;">08:40</span></span>
-                            <img class="priority concluido" src="src/Check.svg"></img>
-                            
-                        </div>
-                    </div>
-
-                    <div class="task" id="task-id">
-
-                        <div class="task-name"> 
-                            <span class="task-title disable">Isso é uma atividade concluida</span>
-                            <span class="subtitle task-materia disable"> Desenvolvimento de Sistemas</span>
-                        </div>
-                    
-                        <div style="display: flex; align-items: center;">
-                            <span class="subtitle task-date disable">FEV 19 <span class="bold disable" style="margin-left: 3px;">08:40</span></span>
-                            <img class="priority concluido" src="src/Check.svg"></img>
-                            
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+            <?php include('php/finished_task.php')?>
+            
         </div>
         <!--Botão Fixo Criar Task-->    
         <a href="create-task.html" class="create-task-button">
@@ -206,7 +57,7 @@
     rotateimg1.classList.toggle('rotate')
     });
 
-        const droptitle2 = document.getElementById('droptitle-2');
+    const droptitle2 = document.getElementById('droptitle-2');
     const dropTask2 = document.getElementById('droptask-2');
     const rotateimg2 = document.getElementById('rotateimg-2');
     
@@ -214,7 +65,6 @@
     droptitle2.addEventListener('click', () => {
     dropTask2.classList.toggle('drop-task-visible');
     rotateimg2.classList.toggle('rotate')
-    $('#droptask-1').append('teste')
     });
     </script>
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
